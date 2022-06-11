@@ -17,7 +17,7 @@ function Header() {
                 <br />
                 <p id='p1'>Ready to watch? Enter your email to create or restart your membership.</p>
                 <form>
-                    <input type={"email"} className="email" />
+                    <input type={"email"} className="email" placeholder='Email Address' />
                     <input type={"submit"} value={"Get Started >"} className="submit-button btn btn-rounded"/>
                 </form>
             </div>

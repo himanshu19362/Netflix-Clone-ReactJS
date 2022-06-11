@@ -14,7 +14,7 @@ function Section(props) {
             <video width="320" height="240" autoPlay loop muted><source src={props.videoUrl} type="video/mp4" /></video>
         </div>
 
-        {!props.messageLeft && <div className='message' style={{"justify-self": "flex-start"}}>
+        {!props.messageLeft && <div className='message' style={{"justifySelf": "flex-start"}}>
             <h1>{props.heading}</h1>
             <p>{props.message}</p>
         </div>

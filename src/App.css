@@ -13,10 +13,14 @@
   border-radius: 5px;
 }
 
-.ft.bg{
+/* .ft.bg{
   font-size: 1.6rem;
 }
 
 .ft-md{
   font-size: 1rem;
+} */
+
+h1{
+  font-size: 50px;
 }
