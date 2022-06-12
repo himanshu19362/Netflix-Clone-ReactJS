@@ -1,10 +1,12 @@
 import React from 'react'
 import './Header.css'
+import logo from './../../images/logo.png'
+
 function Header() {
   return (
     <div className='header'>
         <nav className='navbar'>
-            <img src='https://i.ibb.co/r5krrdz/logo.png' alt='#' className='logo'/>
+            <img src={logo} alt='#' className='logo'/>
             <div className='sign-in-button'>
                 <button className='btn btn-rounded'>Sign In</button>
             </div>
