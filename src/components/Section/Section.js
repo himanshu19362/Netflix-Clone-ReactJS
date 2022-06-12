@@ -1,6 +1,5 @@
 import React from 'react'
 import './Section.css'
-// import vid from './../../videos/video1.mp4'
 
 function Section(props) {
   return (

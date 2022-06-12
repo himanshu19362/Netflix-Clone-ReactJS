@@ -34,3 +34,9 @@
     padding: 20px 25px;
     line-height: 1.4;
 }
+
+@media (max-width:1100px){
+    .faq-item{
+        margin: 10px 35px;
+    }
+}

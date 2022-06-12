@@ -22,3 +22,11 @@
 .footer-menu p{
     margin: 10px 0;
 }
+
+@media (max-width:600px){
+    .footer-menu{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    
+}
