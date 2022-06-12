@@ -1,5 +1,6 @@
 import './App.css';
 import FAQ from './components/FAQ/FAQ';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import SectionList from './components/SectionList/SectionList';
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <SectionList />
       <FAQ />
+      <Footer />
     </>
   );
 }

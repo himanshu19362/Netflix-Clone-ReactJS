@@ -1,0 +1,24 @@
+.footer{
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+
+}
+
+.footer p{
+    font-weight: lighter;
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+
+.footer-menu{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    
+    margin: 20px 0;
+    
+}
+
+.footer-menu p{
+    margin: 10px 0;
+}
